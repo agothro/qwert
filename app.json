@@ -1,0 +1,14 @@
+{
+  "name": "Qwertit",
+  "description": "Like /r/abcqwerty123, but still not on reddit",
+  "repository": "https://github.com/agothro/sample-project/",
+  "logo": "http://agothro.github.io/QwertyAssets/cory.png",
+  "keywords": ["meteor", "social", "community"],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/AdmitHub/meteor-buildpack-horse.git",
+    "ROOT_URL": "https://qwertit.vdtapp.com/",
+  },
+  "addons": [
+    "mongolab"
+  ]
+}
